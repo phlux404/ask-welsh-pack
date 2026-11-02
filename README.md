@@ -47,9 +47,10 @@ Then enable the Welsh pack inside AnySoftKeyboard's language settings.
 4. Build (JDK 21):
    `./gradlew :addons:languages:welsh:apk:assembleDebug`
 
-The dictionary is regenerated during the build from
-`welsh/pack/dictionary/inputs/` (the Wikipedia sample) merged with the
-prebuilt spoken layer.
+The dictionary is regenerated during the build from the text corpus in
+`welsh/pack/dictionary/inputs/` merged with the prebuilt spoken layer.
+(The corpus sample used for the release build is not tracked in this
+repo — see `welsh/pack/dictionary/inputs/README.txt`.)
 
 ## Provenance & license
 
